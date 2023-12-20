@@ -30,7 +30,6 @@ public class User {
 	}
 
 	public User(Long id, String name, String email, LocalDate birthDate, String password) {
-		super();
 		this.id = id;
 		this.name = name;
 		this.email = email;
@@ -76,6 +75,10 @@ public class User {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public List<Order> getOrders() {
+		return orders;
 	}
 	
 	
