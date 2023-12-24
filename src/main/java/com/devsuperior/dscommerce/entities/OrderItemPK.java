@@ -18,6 +18,8 @@ public class OrderItemPK {
 	public OrderItemPK() {
 		
 	}
+	
+	
 
 	public Order getOrder() {
 		return order;

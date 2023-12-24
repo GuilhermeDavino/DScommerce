@@ -41,14 +41,21 @@ public class Product {
 		
 	}
 
-	public Product(Long id, String name, String description, Double price, String imgUrl, Set<Category> categories) {
+	
+
+	public Product(Long id, String name, String description, Double price, String imgUrl, Set<Category> categories,
+			Set<OrderItem> items) {
+		super();
 		this.id = id;
 		this.name = name;
 		this.description = description;
 		this.price = price;
 		this.imgUrl = imgUrl;
 		this.categories = categories;
+		this.items = items;
 	}
+
+
 
 	public Long getId() {
 		return id;
