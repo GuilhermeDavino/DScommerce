@@ -72,7 +72,7 @@ cd backend
 ./mvnw spring-boot:run
 ```
 
-## Front end web [Acesse o repósitorio fronte-end](https://github.com/GuilhermeDavino/dscommerce-frontend)
+## Front end web [Acesse o repósitorio front-end](https://github.com/GuilhermeDavino/dscommerce-frontend)
 Pré-requisitos: npm / yarn
 
 ```bash
